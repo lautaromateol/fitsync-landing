@@ -34,6 +34,7 @@ html {
   font-size: 62.5%;
   font-family: 'Rubik', sans-serif;
   color: #333;
+  overflow-x: hidden;
 }
 
 .container {
@@ -77,6 +78,10 @@ html {
 
 .grid-cols-5 {
   grid-template-columns: repeat(5, 1fr);
+}
+
+.grid-footer {
+  grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
 }
 
 .heading-primary,
@@ -245,7 +250,8 @@ html {
 }
 
 .featured-in {
-  padding: 3.2rem;
+  padding: 4.8rem;
+  background-color: #d3f9d8;
 }
 
 .logos {
@@ -261,6 +267,7 @@ html {
 }
 
 .featured-title {
+  margin-top: 1.2rem;
   text-align: center;
   font-size: 1.6rem;
   font-weight: 500;

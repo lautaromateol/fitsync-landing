@@ -1,0 +1,89 @@
+@media screen and (min-width: 800px) and
+(max-width: 1023px) {
+  html {
+    font-size: 56.25%;
+  }
+
+  .container {
+    padding-inline: 3.2rem;
+  }
+
+  .heading-primary {
+    font-size: 5.2rem;
+  }
+
+  .heading-secondary {
+    font-size: 4.4rem;
+  }
+
+  .hero-text {
+    font-size: 1.6rem;
+  }
+
+  .hero-svg {
+    transform: translate(60%, 15%);
+    height: 65%;
+    width: 65%;
+  }
+
+  .step-number {
+    font-size: 5.2rem;
+  }
+
+  .step-text {
+    font-size: 1.6rem;
+  }
+
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .card:nth-child(3) {
+    grid-column: 1 / -1;
+  }
+
+  .grid-cols-4 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .logos img {
+    height: 2.4rem;
+  }
+
+  .testimonial-text {
+    font-size: 1.6rem;
+  }
+
+  .testimonial-author {
+    font-size: 1.4rem;
+  }
+
+  .age {
+    font-size: 0.8rem;
+  }
+
+  .card-title {
+    font-size: 2rem;
+  }
+
+  .card-description {
+    font-size: 1.6rem;
+  }
+
+  .feature-title {
+    font-size: 1.8rem;
+  }
+  
+  .feature-text {
+    font-size: 1.6rem;
+  }
+
+}
+
+@media screen and (max-width: 799px) {
+  html {
+    font-size: 50%;
+  }
+
+}
