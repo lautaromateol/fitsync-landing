@@ -86,4 +86,110 @@
     font-size: 50%;
   }
 
+  .section-hero,
+  .section-how,
+  .section-testimonials,
+  .section-pricing {
+    padding: 6.4rem 0;
+  }
+  
+
+  .container {
+    padding-inline: 3.2rem;
+  }
+
+  .heading-primary {
+    font-size: 4.4rem;
+  }
+
+  .heading-secondary {
+    font-size: 3.6rem;
+  }
+
+  .hero {
+    display: flex;
+    flex-direction: column;
+    position: initial;
+    align-items: center;
+  }
+
+  .hero-text-box {
+    max-width: 100%;
+  }
+
+  .hero-text {
+    font-size: 1.4rem;
+  }
+
+  .hero-svg {
+    position: initial;
+    transform: translate(-5%, 25%);
+    height: 100%;
+    width: 100%;
+  }
+
+  .step-number {
+    font-size: 4.4rem;
+  }
+
+  .step-text {
+    font-size: 1.4rem;
+  }
+
+  .cards {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .pricing-card {
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  }
+
+  .grid {
+    row-gap: 3.2rem;
+  }
+
+  .grid-cols-4, .grid-cols-3 {
+    grid-template-columns: 1fr;
+  }
+
+  .logos img {
+    height: 1.2rem;
+  }
+  
+  .img-author-box {
+    flex-direction: column;
+  }
+
+  .testimonial-text {
+    font-size: 1.4rem;
+  }
+
+  .testimonial-author {
+    font-size: 1.2rem;
+  }
+
+  .age {
+    font-size: 0.8rem;
+  }
+
+  .card-title {
+    font-size: 1.8rem;
+  }
+
+  .card-description {
+    font-size: 1.4rem;
+  }
+
+  .feature-title {
+    font-size: 1.6rem;
+  }
+  
+  .feature-text {
+    font-size: 1.4rem;
+  }
+
+  .cta-button {
+    height: 4rem;
+  }
 }
