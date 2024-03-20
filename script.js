@@ -27,7 +27,7 @@ links.forEach((link) => {
       const section = document.querySelector(href)
       section.scrollIntoView({behavior: "smooth"})
     }
-    if(link.classList.contains("nav-item")) header.classList.remove("nav-open")
+    if(link.classList.contains("nav-item") || link.classList.contains("btn-full")) header.classList.remove("nav-open")
   })
 })
 
