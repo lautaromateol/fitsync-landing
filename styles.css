@@ -61,7 +61,8 @@ html {
 
 .grid {
   display: grid;
-  column-gap: 3.2rem;
+  column-gap: 4.8rem;
+  row-gap: 3.2rem;
 }
 
 .grid-cols-2 {
@@ -229,7 +230,6 @@ html {
 }
 
 .section-hero {
-  min-height: 100vh;
   background-color: #d3f9d8;
   padding: 9.6rem 0;
 }
@@ -279,6 +279,7 @@ html {
 }
 
 .featured-in {
+  background-color: #d3f9d8;
   padding: 4.8rem;
 }
 
@@ -393,6 +394,107 @@ html {
   line-height: 1.6;
 }
 
+.section-plans {
+  padding: 9.6rem 0;
+}
+
+
+.plans-card {
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+  border-radius: 11px;
+  overflow: hidden;
+  transition: all 0.4s;
+}
+
+.plans-card:hover {
+  transform: translateY(-1.2rem);
+  box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
+}
+
+.plan-content {
+  padding: 3.2rem 4.8rem 4.8rem 4.8rem;
+}
+
+.plan-tags {
+  margin-bottom: 1.2rem;
+  display: flex;
+  gap: 0.4rem;
+}
+
+.tag {
+  display: inline-block;
+  padding: 0.4rem 0.8rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color: #333;
+  border-radius: 100px;
+  font-weight: 600;
+  background-color: #69db7c;
+}
+
+.plan-title {
+  font-size: 2.4rem;
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 3.2rem;
+}
+
+.plan-attributes {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.plan-attribute {
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.plan-icon {
+  height: 2.4rem;
+  width: 2.4rem;
+  color: #69db7c;
+}
+
+.plan-img {
+  width: 100%;
+}
+
+.plans-list {
+  margin-top: 4.8rem;
+  justify-self: center;
+  align-self: center;
+}
+
+.plans-list-title {
+  font-size: 2.4rem;
+  font-weight: 500;
+  margin-bottom: 3.2rem;
+}
+
+.plans {
+  display: flex;
+  flex-direction: column;
+  gap: 4.8rem;
+  list-style-type: none;
+}
+
+.plan-item {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  font-size: 2rem;
+}
+
+.check-icon {
+  width: 2.4rem;
+  height: 2.4rem;
+  color: #69db7c;
+}
+
 .section-pricing {
   padding: 9.6rem 0;
 }
@@ -483,6 +585,10 @@ html {
   box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
   transition: all 0.5s;
   cursor: pointer;
+}
+
+.features {
+  column-gap: 2.4rem;
 }
 
 .feature {
