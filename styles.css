@@ -158,18 +158,49 @@ html {
 }
 
 .header {
-  padding: 1.6rem 3.2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: #d3f9d8;
+  height: 9.6rem;
+  padding: 0 3.2rem;
+}
+
+.sticky .header {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 9.6rem;
+  padding: 0 3.2rem;
+  background-color: rgba(255, 255, 255, 0.97);
+  transition: all 0.3s;
+  z-index: 5;
 }
 
 .nav {
   display: flex;
   align-items: center;
-  gap: 3.2rem;
 }
+
+.btn-mobile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
+  display: none;
+  z-index: 5;
+}
+
+.icon-mobile-nav {
+  height: 4.8rem;
+  width: 4.8rem;
+  color: #333;
+}
+
+.icon-mobile-nav[name="close-outline"] {
+  display: none;
+}
+
 
 .logo {
   display: block;
@@ -177,13 +208,10 @@ html {
 }
 
 .nav-list {
-  list-style: none;
   display: flex;
-  gap: 1.2rem;
-}
-
-.nav-list:last-child {
-  margin-left: auto;
+  align-items: center;
+  list-style: none;
+  gap: 3.2rem;
 }
 
 .nav-item:link,
@@ -201,6 +229,7 @@ html {
 }
 
 .section-hero {
+  min-height: 100vh;
   background-color: #d3f9d8;
   padding: 9.6rem 0;
 }
@@ -251,7 +280,6 @@ html {
 
 .featured-in {
   padding: 4.8rem;
-  background-color: #d3f9d8;
 }
 
 .logos {
@@ -583,3 +611,5 @@ html {
 .address {
   margin-bottom: 1.2rem;
 }
+
+

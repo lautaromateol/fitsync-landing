@@ -2,7 +2,7 @@
 
 ## Acerca de FitSync
 
-En FitSync, nos dedicamos a revolucionar la forma en que te acercas al fitness. Somos un equipo apasionado de expertos en salud y desarrollo tecnológico que creen en la personalización como clave para el éxito en el acondicionamiento físico. FitSync es una aplicación líder que utiliza inteligencia artificial para crear rutinas de entrenamiento personalizadas según tu perfil único. Ya no es necesario adaptarse a programas genéricos; con FitSync, tu experiencia de fitness es tan única como tú.
+At FitSync, we are dedicated to revolutionizing the way you approach fitness. We are a passionate team of health and technology development experts who believe in personalization as the key to fitness success. FitSync is a leading app that uses artificial intelligence to create personalized workout routines based on your unique profile. It is no longer necessary to adapt to generic programs; With FitSync, your fitness experience is as unique as you are.
 
 ## Objetivos de la pagina
 
