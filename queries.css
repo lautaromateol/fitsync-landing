@@ -242,6 +242,7 @@
 
   .cta-button {
     height: 4rem;
+    cursor: pointer;
   }
 
   .grid-footer {
